@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewJavascriptBridge/WebViewJavascriptBridge.h"
 
 @interface ViewController : UIViewController
 

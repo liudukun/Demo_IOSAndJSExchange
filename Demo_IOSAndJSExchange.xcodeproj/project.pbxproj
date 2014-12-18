@@ -14,6 +14,8 @@
 		E3F826BE1A2EE8CA00B56CE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F826BD1A2EE8CA00B56CE0 /* Images.xcassets */; };
 		E3F826C11A2EE8CA00B56CE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F826BF1A2EE8CA00B56CE0 /* LaunchScreen.xib */; };
 		E3F826CD1A2EE8CA00B56CE0 /* Demo_IOSAndJSExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F826CC1A2EE8CA00B56CE0 /* Demo_IOSAndJSExchangeTests.m */; };
+		E3F826DA1A2EEB5000B56CE0 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3F826D81A2EEB5000B56CE0 /* WebViewJavascriptBridge.js.txt */; };
+		E3F826DB1A2EEB5000B56CE0 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F826D91A2EEB5000B56CE0 /* WebViewJavascriptBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		E3F826C61A2EE8CA00B56CE0 /* Demo_IOSAndJSExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_IOSAndJSExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F826CB1A2EE8CA00B56CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F826CC1A2EE8CA00B56CE0 /* Demo_IOSAndJSExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_IOSAndJSExchangeTests.m; sourceTree = "<group>"; };
+		E3F826D71A2EEB5000B56CE0 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		E3F826D81A2EEB5000B56CE0 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		E3F826D91A2EEB5000B56CE0 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 				E3F826BA1A2EE8CA00B56CE0 /* Main.storyboard */,
 				E3F826BD1A2EE8CA00B56CE0 /* Images.xcassets */,
 				E3F826BF1A2EE8CA00B56CE0 /* LaunchScreen.xib */,
+				E3F826D61A2EEB5000B56CE0 /* WebViewJavascriptBridge */,
 				E3F826B01A2EE8CA00B56CE0 /* Supporting Files */,
 			);
 			path = Demo_IOSAndJSExchange;
@@ -117,6 +123,16 @@
 				E3F826CB1A2EE8CA00B56CE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3F826D61A2EEB5000B56CE0 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				E3F826D71A2EEB5000B56CE0 /* WebViewJavascriptBridge.h */,
+				E3F826D81A2EEB5000B56CE0 /* WebViewJavascriptBridge.js.txt */,
+				E3F826D91A2EEB5000B56CE0 /* WebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F826DA1A2EEB5000B56CE0 /* WebViewJavascriptBridge.js.txt in Resources */,
 				E3F826BC1A2EE8CA00B56CE0 /* Main.storyboard in Resources */,
 				E3F826C11A2EE8CA00B56CE0 /* LaunchScreen.xib in Resources */,
 				E3F826BE1A2EE8CA00B56CE0 /* Images.xcassets in Resources */,
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F826B91A2EE8CA00B56CE0 /* ViewController.m in Sources */,
+				E3F826DB1A2EEB5000B56CE0 /* WebViewJavascriptBridge.m in Sources */,
 				E3F826B61A2EE8CA00B56CE0 /* AppDelegate.m in Sources */,
 				E3F826B31A2EE8CA00B56CE0 /* main.m in Sources */,
 			);
